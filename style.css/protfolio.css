@@ -1,0 +1,139 @@
+/* shared css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+.font-open-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.logo h2{
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.color-or{
+  color: #FD6E0A;
+}
+
+.btn{
+  padding: 18px 35px;
+  color: white;
+  background-color: #FD6E0A;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.saction-heading{
+  max-width: 827px;
+  text-align: center;
+}
+
+.saction-heading h2{
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.saction-heading p{
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575 ;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* main css */
+
+header{
+  background-color: #FFF8F3;
+  background: url(../images/developer.png), url(../images/header_bg.png),#FFF8F3;
+  background-repeat: no-repeat;
+  background-position: top left , bottom right;
+  padding-top: 50px;
+}
+nav{
+  width: 70%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .menu{
+  display: flex;
+  list-style: none;
+  gap: 53px;
+  align-items: center;
+}
+nav .menu a{
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+}
+
+
+
+#banner{
+  margin: 46px 38px 0px 230px;
+  display: flex;
+  gap: 163px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner .banner-contant{
+  max-width: 485px;
+}
+
+#banner .banner-contant h3{
+  font-size: 40px;
+  font-weight: 200;
+  color: #474747;
+}
+
+#banner .banner-contant h1{
+  font-size: 85px;
+  font-weight: 600;
+}
+
+#banner .banner-contant p{
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+#banner .image img{
+  max-width: 585px;
+  vertical-align: middle;
+}
+
+
+#about{
+  padding-top: 130px;
+}
+
+.about-container{
+  width: 70%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 131px 157px;
+}
+
+.about-info{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #474747;
+}
