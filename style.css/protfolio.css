@@ -232,3 +232,53 @@ nav .menu a{
   margin-top: 50px;
   margin-bottom: 113px;
 }
+
+footer{
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+
+.footer-container{
+  width: 70%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 250px;
+}
+
+.socil {
+  max-width: 450px;
+}
+
+.footer-container h2{
+  font-size: 35px;
+  color: #181818;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-container p{
+  font-size: 16px;
+  color:#474747;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.icon {
+  margin-top: 30px;
+}
+
+.icon a{
+  margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea {
+  width: 461px;
+  padding: 18px 30px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
