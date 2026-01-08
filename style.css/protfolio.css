@@ -34,6 +34,7 @@ h2,
 .saction-heading{
   max-width: 827px;
   text-align: center;
+  margin: 0 auto;  
 }
 
 .saction-heading h2{
@@ -136,4 +137,98 @@ nav .menu a{
   font-size: 18px;
   line-height: 30px;
   color: #474747;
+}
+
+#skil{
+  padding-top: 130px;
+}
+
+.skil-contaniar{
+  width: 70%;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+
+.skil-box {
+  display: flex;
+  gap: 60px;
+}
+ .skil-card{
+  box-shadow: 0 6px 50px 0 #00000018;
+  background-color: #FFFFFF;
+  max-width: 267px;
+  border: 5px;
+ }
+.skil-card img {
+  margin: 0 30px;
+}
+
+.skil-card h3{
+  margin: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.skil-card p{
+  margin: 30px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  width: 172px;
+}
+
+#resume{
+   margin-top: 130px;
+}
+
+.resume-container{
+   width: 70%;
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+.resume-box1{
+  display: flex;
+  gap: 71px;
+}
+
+.resume-box h2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top:113px ;
+  color: #474747;
+}
+
+.resume-crad{
+  margin-top: 30px;
+  width: 511px;
+}
+
+.resume-crad h3{
+  font-size: 20px;
+  font-weight: bold;
+  color:#474747
+}
+
+.resume-crad h4{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  color:#474747
+}
+
+.resume-crad p{
+  margin-top: 20px;
+  font-size: 16px;
+  color:#474747;
+  font-weight: 400;
+  line-height: 28px;
+  width: 511px;
+  margin-bottom: 30px;
+}
+
+.btn2{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 113px;
 }
