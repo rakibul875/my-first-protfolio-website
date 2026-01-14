@@ -22,14 +22,20 @@ h2,
 }
 
 .btn {
-  padding: 18px 35px;
+  padding: 16px 30px;
   color: white;
   background-color: #FD6E0A;
   border-radius: 5px;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 400;
   border: none;
   cursor: pointer;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .saction-heading {
@@ -296,7 +302,7 @@ footer {
 
 @media screen and (max-width:576px) {
 
-  nav{
+  nav {
     width: 95%;
     flex-direction: column;
     gap: 20px;
@@ -307,17 +313,46 @@ footer {
     justify-content: center;
   }
 
-  .about-container{
+  #banner {
+    margin: 20px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #banner .banner-contant {
+    text-align: center;
+  }
+
+
+  #banner .banner-contant h1 {
+    font-size: 52px;
+  }
+
+  .btn-group {
+    justify-content: center;
+  }
+
+  #banner .image img {
+    max-width: 100%;
+  }
+
+  header {
+    background: url(../images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .about-container {
     padding: 20px;
     width: 95%;
   }
 
-  .about-info{
+  .about-info {
     flex-direction: column;
     gap: 20px;
   }
 
-  .saction-heading h2{
+  .saction-heading h2 {
     margin-bottom: 10px;
   }
 
@@ -326,73 +361,76 @@ footer {
     padding-top: 60px;
   }
 
-  .skil-contaniar{
+  .skil-contaniar {
     width: 95%;
     justify-content: center;
     align-items: center;
   }
-  .skil-box{
+
+  .skil-box {
     flex-direction: column;
   }
 
-  .skil-card{
-    max-width: 100%;
+  .skil-card {
+    max-width: 90%;
+    margin: 0 auto;
   }
 
-  .skil-card img{
-    margin-top: 10px;
-    margin-left: 130px;
+  .skil-card img {
+    margin-top: 10px ;
+    margin-left: 40%;
   }
 
-  .skil-card h3{
+  .skil-card h3 {
     text-align: center;
   }
 
-  .skil-card p{
+  .skil-card p {
     text-align: center;
     width: 80%;
   }
 
-  .resume-box h2{
+  .resume-box h2 {
     margin: 0px;
   }
 
-  .resume-box1{
+  .resume-box1 {
     flex-direction: column;
     gap: 1px;
   }
 
-  .resume-crad{
+  .resume-crad {
     width: 100%;
   }
 
-  .resume-crad p{
+  .resume-crad p {
     width: 100%;
   }
 
-  footer{
+  footer {
     margin-top: 0px;
     padding: 30px;
   }
-  .footer-container{
+
+  .footer-container {
     flex-direction: column;
     width: 100%;
     margin: 0;
     gap: 30px;
   }
 
-  .footer-container h2{
+  .footer-container h2 {
     font-size: 28px;
   }
 
-  .form{
+  .form {
     width: 100%;
   }
 
-  .footer-container form input[type="text"], .footer-container form textarea{
+  .footer-container form input[type="text"],
+  .footer-container form textarea {
     width: 100%;
   }
 
 
 }
-
